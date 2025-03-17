@@ -89,6 +89,6 @@ galleryContainer.innerHTML = images
   .join('');
 
 const lightbox = new SimpleLightbox('.gallery a', {
-  captionData: 'alt',
+  captionsData: 'alt',
   captionDelay: 250,
 });
